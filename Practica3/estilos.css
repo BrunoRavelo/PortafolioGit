@@ -1,0 +1,30 @@
+div.imagenes{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: auto;
+    border: 1px solid black;
+}
+th{
+    background-color:rgb(255, 255, 230);
+    color: black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid rgba(0, 0, 0, 0.2) ;
+    border-right: 1px solid rgba(0, 0, 0, 0.2) ;
+}
+td {
+    border-left: 1px solid rgba(0, 0, 0, 0.2) ;
+    border-right: 1px solid rgba(0, 0, 0, 0.2) ;
+}
+th:first-child, td:first-child {
+    border-left: none; 
+}
+th:last-child, td:last-child {
+    border-right: none; 
+}
+tr:nth-child(even) {
+    background-color: #d5daff
+}
+
+

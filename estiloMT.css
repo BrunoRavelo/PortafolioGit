@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsla(191, 19%, 84%, 0.688);
+}
+h1 {
+    color: rgb(2, 2, 74);
+    font-family: Helvetica;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+/*botom navigation*/
+.bottom-nav {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #b9b4b4;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.bottom-nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Practica 3*/
+div.imagenes{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: auto;
+    border: 1px solid black;
+}
+#tablas {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+}
+th{
+    background-color:rgb(255, 255, 230);
+    color: black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid rgba(0, 0, 0, 0.2) ;
+    border-right: 1px solid rgba(0, 0, 0, 0.2) ;
+}
+#tablas th {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 5px;
+    border: 1px solid;
+    padding-bottom: 4px;
+    background-color: #034f76;
+  }
+td {
+    font-size: 1em;
+    border-left: 1px solid rgba(0, 0, 0, 0.2) ;
+    border-right: 1px solid rgba(0, 0, 0, 0.2) ;
+    padding: 3px 7px;
+}
+
+th:first-child, td:first-child {
+    border-left: none; 
+}
+th:last-child, td:last-child {
+    border-right: none; 
+}
+tr:nth-child(even) {
+    background-color: #f0f1f9
+}
+tr:nth-child(odd) {
+    background-color: #cddbdf;
+} 
+
+tr:hover {
+    background-color: #f5f5f5; 
+    cursor: pointer; 
+}
+
+  

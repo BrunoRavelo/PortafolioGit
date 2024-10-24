@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú</title>
+    <link rel="stylesheet" href="estiloMT.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #575757;
+}
+
+.content {
+    margin-left: 200px; /* Espacio reservado para la barra lateral */
+    padding: 20px;
+    width: calc(100% - 200px); /* Ajusta el ancho del contenido */
+}
+.cover {
+    background-color: rgba(255, 171, 16, 0.552);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+.logo {
+    width: 100%;
+    max-width: 300px; /* Ajusta según el tamaño del logo */
+    height: auto;
+}
+.info h1, .info h2, .info p {
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+}
+.content-text {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="Practica2/Practica2.html">Práctica 2</a></li>
+                <li><a href="Practica3/Practica3.html">Práctica 3</a></li>
+                <li><a href="Practica4/Practica4_menu.html">Práctica 4</a></li>
+                <li><a href="Practica5/TablaDinamica.html">Práctica 5</a></li>
+                <li><a href="Ejercicio_mt/Mt.html">Tareas</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="cover">
+                <img src="logo.png" alt="Logo de la Universidad" class="logo">
+                <div class="info">
+                    <h1>Nombre de la Universidad</h1>
+                    <h2>Facultad de Ingeniería</h2>
+                    <p>Bruno Ravelo Rodríguez</p>
+                    <p>ID: 00412631</p>
+                    <p>Profesor: Hector Julián Selley Rojas</p>
+                    <p>Proyecto de Medio Término</p>
+                    
+                    <p>24/09/2024</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

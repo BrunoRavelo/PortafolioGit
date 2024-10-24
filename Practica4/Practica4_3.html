@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="Practica4_3.js"></script>
+    <link rel="stylesheet" href="../estiloMT.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="">
+        Nombre: <input type="text" id="nombre"> <br><br>
+        Correo: <input type="email" id="correo"> <br><br>
+        Edad: <input type="number" id="edad"> <br><br>
+        <p>Genero: </p>
+        <input type="radio" name ="genero" id="hombre"> Masculino <br>
+        <input type="radio" name ="genero" id="mujer"> Femenino <br>
+        <input type="radio" name ="genero" id="otro"> Otro <br><br>
+        Fecha de Nacimiento: <input type="date" id="nacimiento"><br><br>
+        Color favorito: <input type="color" id="color"> <br><br>
+    </form>
+    <button type="button" onclick="registrar()">Enviar</button>
+    <p id="resultado"></p>
+    
+</body>
+</html>

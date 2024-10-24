@@ -1,0 +1,17 @@
+.center{
+    text-align: center;
+}
+.tcenter {
+    display: flex;
+    justify-content: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsla(191, 19%, 84%, 0.688);
+}
+h3 {
+    color: rgb(2, 2, 74);
+    font-family: Helvetica;
+    padding: 10px;
+    margin-bottom: 30px;
+  }

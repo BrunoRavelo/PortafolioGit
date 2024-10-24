@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="tablas.js"></script>
+    <title>Practica5</title>
+    <link rel="stylesheet" href="../estiloMT.css">
+</head>
+<body>
+    <h1>Registro para club deportivo</h1>
+    <form action="">
+        Nombre: <input type = "text" id="nombre" required><br>
+        Correo electrónico: <input type = "email" id="email" required><br>
+        
+        <h2>Fecha de inscripció: </h2>
+        <input type="datetime-local" id="fecha"><br><br>
+
+        Rango de edad: <input type="range" id="edad" name="edad" min="1" max="3" step="1" value="1">
+        <p>Valores: Niño - Adulto - 3ra Edad</p><br>
+
+        <h2>Deportes de interés:</h2>
+        <input name ="deporte" type="checkbox" id="Natacion" value="Natacion"> Natacion<br> 
+        <input name ="deporte" type="checkbox" id="Soccer" value="Soccer">Soccer<br>
+        <input name ="deporte" type="checkbox" id="Ciclismo" value="Ciclismo">Ciclismo<br>
+        
+        <h2>Tipo de membresía:</h2>
+        <input type="radio" name="membresia" id="Matutina" value="Matutina">Matutina<br>
+        <input type="radio" name="membresia" id="Vespertina" value="Vespertina">Vespertina<br>
+        <input type="radio" name="membresia" id="Todo" value="Todo el dia">Todo el día<br><br>
+        
+        Color de la membresía: <input type="color" id="color"> <br><br>
+    </form>
+    <button type="button" onclick="Registro()">Registrar</button>
+    <br>
+    <br>
+    <table id="tablas"></table>
+    <br>
+    <br>
+    <br>
+    <div class="bottom-nav">
+        <a href="../menuMT.html">Menu</a>
+        <a href="../Practica2/Practica2.html">Práctica 2</a>
+        <a href="../Practica3/Practica3.html">Práctica 3</a>
+        <a href="../Practica4/Practica4_menu.html">Práctica 4</a>
+        <a href="../Ejercicio_mt/Mt.html">Tareas</a>
+        <a href="../About.html">About</a>
+    </div>
+</body>
+</html>

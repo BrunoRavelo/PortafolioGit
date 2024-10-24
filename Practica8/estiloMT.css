@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsla(191, 19%, 84%, 0.688);
+}
+
+h1 {
+    color: #02224a;
+    font-family: Helvetica;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #02224a;
+    font-family: Helvetica;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%; 
+    padding: 10px;
+    border:#02224a;
+}
+
+th, td { 
+    padding: 10px; 
+    text-align: center; 
+    border: #02224a;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f1f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #cddbdf;
+}
+
+tr:hover {
+    background-color: #f5f5f5; 
+    cursor: pointer;
+}

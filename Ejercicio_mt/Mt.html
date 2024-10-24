@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="../estiloMT.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #d8d8ff;
+    }
+
+    .contenedor {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      background-color: #5cb85c;
+      color: white;
+      font-size: 16px;
+      border: none;
+    }
+
+    table {
+      margin-top: 20px;
+      table-layout: auto;
+      width: auto;
+    }
+    .completed {
+      text-decoration: line-through;
+    }
+    tr{
+      background-color: white;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Lista de Tareas</h1>
+    <input type="text" id="tareanueva" placeholder="Nombre de la tarea...">
+    <br>
+    <input type="text" id="descripcion" placeholder="Descripción de la tarea...">
+    <br>
+    <button onclick="tarea()">Añadir Tarea</button>
+    <button onclick="borracompletos()">Borrar Tareas Completadas</button>
+    <button onclick="borrarlista()">Borrar Toda la Lista</button>
+    
+    <table id="tabla" cellspacing="0">
+  </div>
+  <div class="bottom-nav">
+    <a href="../menuMT.html">Menu</a>
+    <a href="../Practica2/Practica2.html">Práctica 2</a>
+    <a href="../Practica3/Practica3.html">Práctica 3</a>
+    <a href="../Practica4/Practica4_menu.html">Práctica 4</a>
+    <a href="../Practica5/TablaDinamica.html">Práctica 5</a>
+    <a href="../About.html">About</a>
+</div>
+
+  <script src="ejercicio_mt.js"></script>
+</body>
+</html>
